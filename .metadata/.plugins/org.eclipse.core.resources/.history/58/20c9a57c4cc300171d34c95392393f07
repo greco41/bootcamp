@@ -1,0 +1,19 @@
+package com.manifestcorp.poker;
+
+public class Straight {
+
+private String pokerHandString;
+	
+	Straight(String newPokerHandString){
+		pokerHandString = newPokerHandString;
+	}
+	
+	public String straightSort() {
+		
+	}
+	
+	public boolean isStraight() {
+		
+	}
+	
+}

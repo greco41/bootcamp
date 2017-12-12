@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ChaseBank.java&apos; to &apos;ioc-example/src/main/java/com.lse.spring.example.ioc.with.two&apos;&#x0D;&#x0A;- Original project: &apos;ioc-example&apos;&#x0D;&#x0A;- Destination element: &apos;ioc-example/src/main/java/com.lse.spring.example.ioc.with.two&apos;&#x0D;&#x0A;- Original element: &apos;com.lse.spring.example.ioc.with.two.ChaseBank.java&apos;" description="Copy compilation unit" destination="/src\/main\/java&lt;com.lse.spring.example.ioc.with.two" element1="/src\/main\/java&lt;com.lse.spring.example.ioc.with.two{ChaseBank.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1511372695948" units="1" version="1.0"/>
+</session>

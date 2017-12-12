@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: PuppiesAndStuffClientTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.509 sec <<< FAILURE! - in PuppiesAndStuffClientTest
+test(PuppiesAndStuffClientTest)  Time elapsed: 0.105 sec  <<< ERROR!
+java.lang.IllegalStateException: No marshaller registered. Check configuration of WebServiceTemplate.
+	at org.springframework.ws.client.core.WebServiceTemplate$2.doWithMessage(WebServiceTemplate.java:396)
+	at org.springframework.ws.client.core.WebServiceTemplate.doSendAndReceive(WebServiceTemplate.java:590)
+	at org.springframework.ws.client.core.WebServiceTemplate.sendAndReceive(WebServiceTemplate.java:555)
+	at org.springframework.ws.client.core.WebServiceTemplate.marshalSendAndReceive(WebServiceTemplate.java:390)
+	at hello.PuppiesAndStuffClient.getAPuppyOrSomething(PuppiesAndStuffClient.java:18)
+	at PuppiesAndStuffClientTest.test(PuppiesAndStuffClientTest.java:50)
+
